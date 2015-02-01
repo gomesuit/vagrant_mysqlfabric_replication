@@ -1,0 +1,16 @@
+#!/bin/sh
+
+USR_HOME="/home/vagrant"
+SRC_HOME="${USR_HOME}/src"
+SCRIPT_HOME="${USR_HOME}/install"
+DEPLOY_HOME="${USR_HOME}/deploy"
+
+# MYSQL
+MYSQL_HOME="/usr/local/mysql"
+MYSQL_SRC="mysql-5.6.22"
+PATH=$PATH:${MYSQL_HOME}/bin
+
+# MYSQL-UTILITIES
+MYSQL_UTILITIES_HOME="/usr/local/mysqlutilities"
+MYSQL_UTILITIES_SRC="mysql-utilities-1.5.3"
+PATH=$PATH:${MYSQL_UTILITIES_HOME}/scripts-2.6
