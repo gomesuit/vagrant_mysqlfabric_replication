@@ -1,13 +1,13 @@
 # vagrant_mysqlfabric_replication
 
-[summary]
-mysql fabric demo by vagrant
+## summary
+mysql fabric demo by vagrant  
 
-[how to]
-1. install virtualBox and vagrant
-2. vagrant up
+## how to  
+1.install virtualBox and vagrant to your localhost  
+2.vagrant up  
 
-[server list]
-fabric        192.168.33.10
-mysql.master  192.168.33.20
-mysql.slave   192.168.33.30
+## server list  
+1.fabric        192.168.33.10  
+2.mysql.master  192.168.33.20  
+3.mysql.slave   192.168.33.30  
